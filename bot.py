@@ -4,11 +4,11 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from telegram_login import TelegramLogin
 
 # Use environment variables for sensitive information
-API_TOKEN = os.getenv('API_TOKEN')
+API_TOKEN = os.getenv('7087096200:AAHT5vlpiBFjwQVredRNFeYVV0DYOOduCCo')
 GITHUB_REPO_URL = os.getenv('https://github.com/ShashwatMishra0099/Members.run.git')
-GROUP_ID = os.getenv('GROUP_ID')
+GROUP_ID = os.getenv('-4238096135')
 
-telegram_login = TelegramLogin(api_id=os.getenv('API_ID'), api_hash=os.getenv('API_HASH'))  # Example, adjust as necessary
+telegram_login = TelegramLogin(api_id=os.getenv('29270113'), api_hash=os.getenv('360fc41c046f221ed27f5ecfefea681f'))  # Example, adjust as necessary
 
 def start(update, context):
     try:
