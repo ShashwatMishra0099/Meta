@@ -5,7 +5,7 @@ from telegram_login import TelegramLogin
 
 # Use environment variables for sensitive information
 API_TOKEN = os.getenv('API_TOKEN')
-GITHUB_REPO_URL = os.getenv('GITHUB_REPO_URL')
+GITHUB_REPO_URL = os.getenv('https://github.com/ShashwatMishra0099/Members.run.git')
 GROUP_ID = os.getenv('GROUP_ID')
 
 telegram_login = TelegramLogin(api_id=os.getenv('API_ID'), api_hash=os.getenv('API_HASH'))  # Example, adjust as necessary
